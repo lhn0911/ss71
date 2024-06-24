@@ -1,0 +1,33 @@
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.box.light {
+  background-color: white;
+}
+
+.box.dark {
+  background-color: black;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn.light {
+  background-color: white;
+  color: black;
+}
+
+.btn.dark {
+  background-color: black;
+  color: white;
+}
